@@ -11,17 +11,21 @@ import './styles/animations.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Certifications />
-        <Contact />
-      </main>
-      <Footer />
+    <div className="min-h-screen bg-gray-900 text-gray-100">
+      <div className="flex flex-col min-h-screen w-full max-w-[100vw]">
+        <Header />
+        <main className="flex-1 w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="w-full">
+            <Hero />
+            <About />
+            <Skills />
+            <Projects />
+            <Certifications />
+            <Contact />
+          </div>
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
