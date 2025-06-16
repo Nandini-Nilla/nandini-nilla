@@ -15,7 +15,7 @@ const About = () => {
             {" "}
             {/* Add bottom margin for mobile, adjust as needed (mb-4 is 1rem) */}
             <img
-              src="/myimage.jpg"
+              src="/myimage1.jpg"
               alt="Nandini"
               className="rounded-lg shadow-xl w-[300px] h-[300px] object-cover"
             />
