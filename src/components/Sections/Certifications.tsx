@@ -23,7 +23,8 @@ const certifications: Certification[] = [
     name: "OCI Generative AI Professional",
     issuer: "Oracle",
     date: " July 2024",
-    credentialUrl: "#",
+    credentialUrl:
+      "https://drive.google.com/file/d/1zH3gfJdAU0Bs01JbsZ4pKkrTITTqoZZq/view?usp=sharing",
   },
   {
     id: 3,
@@ -31,7 +32,7 @@ const certifications: Certification[] = [
     issuer: " AICTE",
     date: "June 2024",
     credentialUrl:
-      "https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=2f2d8763fb299517502651b11c2c1355",
+      "https://drive.google.com/file/d/1B8BFuZkDwU0LTcYd1l3kNRq3xJcKfub6/view?usp=sharing",
   },
 ];
 
